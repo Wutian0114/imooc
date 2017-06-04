@@ -1,0 +1,42 @@
+/*实战页面样式*/
+body {
+  background-color: #fff;
+}
+/*导航列表*/
+.coding-nav {
+  background: url("../images/sz-head-bg.jpg");
+  margin-bottom: 1.22222222rem;
+}
+.coding-nav .coding-list {
+  padding: 4.05555556rem 0.83333333rem 0.66666667rem 0.83333333rem;
+}
+.coding-nav .coding-list > li {
+  float: left;
+  margin-right: 0.5rem;
+  margin-bottom: 0.55555556rem;
+}
+.coding-nav .coding-list > li > a {
+  display: block;
+  padding: 0.55555556rem 0.88888889rem;
+  border: 0.11111111rem solid #777D83;
+  font-size: 0.55555556rem;
+  color: #fff;
+  border-radius: 0.88888889rem;
+}
+.coding-nav .coding-list > li.active > a {
+  border: 0.11111111rem solid #FC3154;
+  background-color: #FC3154;
+}
+/*列表下边分割线*/
+.li-line {
+  border-top: 0.05555556rem solid #ccc;
+}
+/*实战推荐*/
+.coding-img {
+  display: block;
+  padding: 0 0.66666667rem;
+}
+.coding-img img {
+  width: 100%;
+  display: block;
+}

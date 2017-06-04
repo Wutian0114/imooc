@@ -1,0 +1,262 @@
+/*通过样式*/
+/*基础样式*/
+div,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+a,
+img,
+header,
+footer,
+ul,
+ol,
+li,
+nav {
+  padding: 0;
+  margin: 0;
+}
+ul,
+ol {
+  list-style: none;
+}
+i,
+b,
+em {
+  font-style: normal;
+}
+.fl {
+  float: left;
+}
+.fr {
+  float: right;
+}
+/*字体图标*/
+@font-face {
+  font-family: 'iconfont';
+  src: url('../icon-font/iconfont.eot');
+  src: url('../icon-font/iconfont.eot?#iefix') format('embedded-opentype'), url('../icon-font/iconfont.woff') format('woff'), url('../icon-font/iconfont.ttf') format('truetype'), url('../icon-font/iconfont.svg#iconfont') format('svg');
+}
+.iconfont {
+  font-family: "iconfont" !important;
+  font-size: 16px;
+  font-style: normal;
+  -webkit-font-smoothing: antialiased;
+  -webkit-text-stroke-width: 0.2px;
+  -moz-osx-font-smoothing: grayscale;
+}
+/*清除浮动*/
+.clearfix::after {
+  content: '';
+  height: 0;
+  line-height: 0;
+  display: block;
+  visibility: hidden;
+  clear: both;
+}
+.clearfix {
+  zoom: 1;
+}
+/*媒体查询，适配手机屏幕*/
+@media screen and (device-width: 320px) {
+  html {
+    font-size: 16px;
+  }
+}
+@media screen and (device-width: 360px) {
+  html {
+    font-size: 18px;
+  }
+}
+@media screen and (device-width: 375px) {
+  html {
+    font-size: 18.75px;
+  }
+}
+@media screen and (device-width: 414px) {
+  html {
+    font-size: 20.07px;
+  }
+}
+@media screen and (device-width: 640px) {
+  html {
+    font-size: 32px;
+  }
+}
+/*头部*/
+header.mui-bar {
+  height: 2.55555556rem;
+  background-color: #07111B;
+}
+header.mui-bar > .mui-content {
+  height: 100%;
+  background-color: transparent;
+}
+header.mui-bar > .mui-content .logo {
+  /*logo图标*/
+  display: block;
+  width: 4.66666667rem;
+  margin-top: 0.33333333rem;
+}
+header.mui-bar > .mui-content .logo > img {
+  width: 100%;
+}
+header.mui-bar > .mui-content .self {
+  /*个人中心*/
+  width: 1.11111111rem;
+  height: 1.11111111rem;
+  border-radius: 50%;
+  float: right;
+  margin-top: 0.66666667rem;
+  overflow: hidden;
+}
+header.mui-bar > .mui-content .self > img {
+  width: 100%;
+  height: 100%;
+}
+/*课程推荐 和 实战课程*/
+.course-recommend .course-list {
+  /*课程列表*/
+  padding: 0 0.66666667rem;
+}
+.course-recommend .course-list .course-item {
+  padding: 0;
+  width: 50%;
+  margin-bottom: 0.66666667rem;
+  box-shadow: 0 0 10px 0 rgba(7, 17, 27, 0.1);
+}
+.course-recommend .course-list .course-item a.list-itme {
+  display: block;
+  overflow: hidden;
+  background-color: #fff;
+  border-radius: 0.44444444rem;
+}
+.course-recommend .course-list .course-item a.list-itme > img {
+  width: 100%;
+  vertical-align: middle;
+}
+.course-recommend .course-list .course-item a.list-itme .desc-box {
+  margin: 0.38888889rem 0.55555556rem 0 0.55555556rem;
+}
+.course-recommend .course-list .course-item a.list-itme .desc-box .li-title {
+  font-size: 0.77777778rem;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  color: #2b333b;
+}
+.course-recommend .course-list .course-item a.list-itme .desc-box .details {
+  font-size: 0.55555556rem;
+  margin: 0;
+}
+.course-recommend .course-list .course-item a.list-itme .desc-box .details .person-num {
+  color: #b7bbbf;
+}
+.course-recommend .course-list .course-item:nth-of-type(even) {
+  padding-left: 0.33333333rem;
+}
+.course-recommend .course-list .course-item:nth-of-type(odd) {
+  padding-right: 0.33333333rem;
+}
+/*学习路径推荐 和 实战*/
+.class-recommend {
+  background-color: #fff;
+  padding: 0 0.66666667rem;
+}
+.class-recommend .mui-content {
+  background-color: #fff;
+}
+.class-recommend .mui-content .class-title {
+  /*路径标题*/
+  margin-bottom: 0.66666667rem;
+}
+.class-recommend .mui-content .class-title h3 {
+  font-size: 0.83333333rem;
+  font-weight: normal;
+  margin-top: 0.27777778rem;
+}
+.class-recommend .mui-content .class-list {
+  /*路径列表*/
+}
+.class-recommend .mui-content .class-list > li {
+  margin-bottom: 1.27777778rem;
+}
+.class-recommend .mui-content .class-list > li > a {
+  display: block;
+}
+.class-recommend .mui-content .class-list > li > a > .class-left {
+  /*左边部分*/
+}
+.class-recommend .mui-content .class-list > li > a > .class-left > .class-info {
+  width: 4.83333333rem;
+  height: 5.44444444rem;
+  position: relative;
+  box-shadow: 0 0 0.55555556rem 0.05555556rem rgba(7, 17, 27, 0.2);
+  background-image: url(../images/road/road1.jpg);
+}
+.class-recommend .mui-content .class-list > li > a > .class-left > .class-info > .class-info-box {
+  width: 2.77777778rem;
+  position: absolute;
+  bottom: 0.66666667rem;
+  left: 0.66666667rem;
+  text-shadow: 0.05555556rem 0.11111111rem 0.16666667rem #000;
+}
+.class-recommend .mui-content .class-list > li > a > .class-left > .class-info > .class-info-box > p {
+  font-size: 0.55555556rem;
+  margin: 0;
+  color: #fff;
+}
+.class-recommend .mui-content .class-list > li > a > .class-left > .class-info > .class-info-box > p.hr {
+  height: 0.05555556rem;
+  background-color: #fff;
+  box-shadow: 0.05555556rem 0.11111111rem 0.16666667rem #000;
+}
+.class-recommend .mui-content .class-list > li > a > .class-left > .class-shadow .line {
+  height: 0.16666667rem;
+  background-color: #edeeef;
+  box-shadow: 0.16666667rem 0.05555556rem 0.33333333rem 0.05555556rem #c4c6c8;
+}
+.class-recommend .mui-content .class-list > li > a > .class-left > .class-shadow .line1 {
+  width: 4.61111111rem;
+}
+.class-recommend .mui-content .class-list > li > a > .class-left > .class-shadow .line2 {
+  width: 4.44444444rem;
+}
+.class-recommend .mui-content .class-list > li > a > .class-left > .class-shadow .line3 {
+  width: 4.27777778rem;
+}
+.class-recommend .mui-content .class-list > li > a > .class-right {
+  /*右边部分*/
+  width: 12.66666667rem;
+  margin-left: 0.77777778rem;
+}
+.class-recommend .mui-content .class-list > li > a > .class-right > p {
+  margin: 0;
+}
+.class-recommend .mui-content .class-list > li > a > .class-right .course-card-name {
+  line-height: 1rem;
+  margin-bottom: 0.27777778rem;
+  font-size: 0.88888889rem;
+}
+.class-recommend .mui-content .class-list > li > a > .class-right .small-title {
+  font-size: 0.55555556rem;
+  color: #71777d;
+  line-height: 0.88888889rem;
+  /*文字太多时，出现省略号*/
+  overflow: hidden;
+  text-overflow: ellipsis;
+  /*新的属性，部分浏览器支持*/
+  display: -webkit-box;
+  -webkit-line-clamp: 3;
+  -webkit-box-orient: vertical;
+}
+.class-recommend .mui-content .class-list > li > a > .class-right .course-card-info {
+  color: #71777d;
+  font-size: 0.55555556rem;
+  margin-top: 0.27777778rem;
+}
+.class-recommend .mui-content .class-list > li > a > .class-right .course-card-info .course-card-price {
+  color: #fc3154;
+}

@@ -1,0 +1,135 @@
+/*首页样式*/
+
+/*轮播图*/
+.banner {
+  margin-top: 46/18rem;
+
+  .indicators {
+    /*导航点*/
+    position: absolute;
+    bottom: 10/18rem;
+    right: 10/18rem;
+    z-index: 99;
+
+    >li {
+      float: left;
+      margin-right: 5/18rem;
+
+      &.active {
+        /*激活状态*/
+        >a {
+          background-color: #fff;
+        }
+      }
+
+      >a {
+        width: 8/18rem;
+        height: 8/18rem;
+        display: block;
+        border-radius: 50%;
+
+        background-color: rgba(204,204,204,0.5);
+      }
+    }
+  }
+}
+
+/*导航条*/
+nav {
+  padding: 15/18rem 0;
+  background-color: #fff;
+  box-shadow: 0 3/18rem 10/18rem #ccc;
+
+  .mui-content {
+    background-color: #fff;
+
+    .mui-row {
+      text-align: center;
+
+      a.nav-menu {
+        display: block;
+
+        .iconfont {
+          width: 35/18rem;
+          height: 37/18rem;
+          line-height: 37/18rem;
+          border-radius: 30%;
+          display: inline-block;
+        }
+
+        span {
+          display: block;
+          font-size: 12/18rem;
+          color: #000;
+          margin-top: 5px;
+
+        }
+
+        .iconfont-coding {
+          background-color: #FBB863;
+        }
+        .iconfont-coding::before {
+          content: "\e63a";
+          color: #fff;
+          font-size: 21/18rem;
+        }
+        .iconfont-class {
+          background-color: #47E3A0;
+        }
+        .iconfont-class::before {
+          content: "\e622";
+          color: #fff;
+          font-size: 21/18rem;
+        }
+        .iconfont-wenda {
+          background-color: #9CABE3;
+        }
+        .iconfont-wenda::before {
+          content: "\e71a";
+          color: #fff;
+          font-size: 21/18rem;
+        }
+        .iconfont-article {
+          background-color: #62CBFC;
+        }
+        .iconfont-article::before {
+          content: "\e6ad";
+          color: #fff;
+          font-size: 21/18rem;
+        }
+      }
+
+    }
+  }
+}
+
+/*标题和按钮*/
+.recommend {
+
+  >.rec-title {
+    font-size: 14/18rem;
+    color: #2b333b;
+    line-height: 44/18rem;
+    margin-top: 5/18rem;
+    margin-bottom: 0;
+    padding: 0 14/18rem;
+
+    .change-btn {
+      /*换一换按钮*/
+      width: 46/18rem;
+      height: 23/18rem;
+      line-height: 23/18rem;
+      text-align: center;
+      box-sizing: border-box;
+      border: 1px solid #71777d;
+      border-radius: 10/18rem;
+      font-size: 10/18rem;
+      color: #71777d;
+      margin-top: 10px;
+    }
+  }
+
+
+}
+
+

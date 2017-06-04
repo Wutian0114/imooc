@@ -1,0 +1,111 @@
+/*首页样式*/
+/*轮播图*/
+.banner {
+  margin-top: 2.55555556rem;
+}
+.banner .indicators {
+  /*导航点*/
+  position: absolute;
+  bottom: 0.55555556rem;
+  right: 0.55555556rem;
+  z-index: 99;
+}
+.banner .indicators > li {
+  float: left;
+  margin-right: 0.27777778rem;
+}
+.banner .indicators > li.active {
+  /*激活状态*/
+}
+.banner .indicators > li.active > a {
+  background-color: #fff;
+}
+.banner .indicators > li > a {
+  width: 0.44444444rem;
+  height: 0.44444444rem;
+  display: block;
+  border-radius: 50%;
+  background-color: rgba(204, 204, 204, 0.5);
+}
+/*导航条*/
+nav {
+  padding: 0.83333333rem 0;
+  background-color: #fff;
+  box-shadow: 0 0.16666667rem 0.55555556rem #ccc;
+}
+nav .mui-content {
+  background-color: #fff;
+}
+nav .mui-content .mui-row {
+  text-align: center;
+}
+nav .mui-content .mui-row a.nav-menu {
+  display: block;
+}
+nav .mui-content .mui-row a.nav-menu .iconfont {
+  width: 1.94444444rem;
+  height: 2.05555556rem;
+  line-height: 2.05555556rem;
+  border-radius: 30%;
+  display: inline-block;
+}
+nav .mui-content .mui-row a.nav-menu span {
+  display: block;
+  font-size: 0.66666667rem;
+  color: #000;
+  margin-top: 5px;
+}
+nav .mui-content .mui-row a.nav-menu .iconfont-coding {
+  background-color: #FBB863;
+}
+nav .mui-content .mui-row a.nav-menu .iconfont-coding::before {
+  content: "\e63a";
+  color: #fff;
+  font-size: 1.16666667rem;
+}
+nav .mui-content .mui-row a.nav-menu .iconfont-class {
+  background-color: #47E3A0;
+}
+nav .mui-content .mui-row a.nav-menu .iconfont-class::before {
+  content: "\e622";
+  color: #fff;
+  font-size: 1.16666667rem;
+}
+nav .mui-content .mui-row a.nav-menu .iconfont-wenda {
+  background-color: #9CABE3;
+}
+nav .mui-content .mui-row a.nav-menu .iconfont-wenda::before {
+  content: "\e71a";
+  color: #fff;
+  font-size: 1.16666667rem;
+}
+nav .mui-content .mui-row a.nav-menu .iconfont-article {
+  background-color: #62CBFC;
+}
+nav .mui-content .mui-row a.nav-menu .iconfont-article::before {
+  content: "\e6ad";
+  color: #fff;
+  font-size: 1.16666667rem;
+}
+/*标题和按钮*/
+.recommend > .rec-title {
+  font-size: 0.77777778rem;
+  color: #2b333b;
+  line-height: 2.44444444rem;
+  margin-top: 0.27777778rem;
+  margin-bottom: 0;
+  padding: 0 0.77777778rem;
+}
+.recommend > .rec-title .change-btn {
+  /*换一换按钮*/
+  width: 2.55555556rem;
+  height: 1.27777778rem;
+  line-height: 1.27777778rem;
+  text-align: center;
+  box-sizing: border-box;
+  border: 1px solid #71777d;
+  border-radius: 0.55555556rem;
+  font-size: 0.55555556rem;
+  color: #71777d;
+  margin-top: 10px;
+}
