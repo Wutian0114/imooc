@@ -5,8 +5,80 @@
     <meta name="viewport"
           content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0"/>
     <title>手记</title>
+    <link rel="stylesheet" href="../lib/mui/css/mui.css"/>
+    <link rel="stylesheet" href="../icon-font/iconfont.css"/>
+
+    <link rel="stylesheet/less" href="../css/common.less"/>
+    <link rel="stylesheet/less" href="../css/article.less"/>
+
+    <script src="../js/less.min.js"></script>
 </head>
 <body>
+<!--通用顶部-->
+<div style="height: 46px;width:100%;background-color: #ccc;position: fixed;opacity: 0.5"></div>
+
+<!-- 侧滑导航根容器 -->
+<div class="mui-off-canvas-wrap mui-draggable mui-slide-in pad-top">
+    <!-- 菜单容器 -->
+    <aside class="mui-off-canvas-right">
+        <div class="mui-scroll-wrapper">
+            <div class="mui-scroll">
+                <!-- 菜单具体展示内容 -->
+                123
+            </div>
+        </div>
+    </aside>
+    <!-- 主页面容器 -->
+    <div class="mui-inner-wrap" id="main-container">
+        <!-- 主页面标题 -->
+        <header class="mui-bar mui-bar-nav">
+            <!--选项卡头部-->
+            <div id="sliderSegmentedControl" class="mui-slider-indicator mui-segmented-control mui-segmented-control-inverted slider-box">
+                <a class="mui-control-item mui-active" href="#article-recommend">支付宝</a>
+                <a class="mui-control-item" href="#article-last">口碑</a>
+            </div>
+
+            <a class="mui-icon mui-action-menu mui-icon-more mui-pull-right" id="aside-btn"></a>
+        </header>
+        <div class="mui-content mui-scroll-wrapper">
+            <div class="mui-scroll">
+                <!--选项卡内容-->
+                <div class="mui-slider-group">
+                    <!--推荐-->
+                    <div id="article-recommend" class="mui-slider-item mui-control-content mui-active">
+                        <div>
+                            <ul>
+                                <li>1</li>
+                                <li>2</li>
+                                <li>3</li>
+                            </ul>
+                        </div>
+                    </div>
+                    <!--最新-->
+                    <div id="article-last" class="mui-slider-item mui-control-content">
+                        <div>
+                            <ul>
+                                <li>.1</li>
+                                <li>.2</li>
+                                <li>.3</li>
+                            </ul>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+        <!--遮罩-->
+        <div class="mui-off-canvas-backdrop"></div>
+    </div>
+</div>
+
+
+
+<!--引入外部js-->
+<script src="../lib/zepto/zepto.js"></script>
+<script src="../lib/mui/js/mui.js"></script>
+<script src="../js/article.js"></script>
 
 </body>
 </html>

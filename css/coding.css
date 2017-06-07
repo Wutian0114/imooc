@@ -5,7 +5,6 @@ body {
 /*导航列表*/
 .coding-nav {
   background: url("../images/sz-head-bg.jpg");
-  margin-bottom: 1.22222222rem;
 }
 .coding-nav .coding-list {
   padding: 4.05555556rem 0.83333333rem 0.66666667rem 0.83333333rem;
@@ -27,9 +26,9 @@ body {
   border: 0.11111111rem solid #FC3154;
   background-color: #FC3154;
 }
-/*列表下边分割线*/
-.li-line {
-  border-top: 0.05555556rem solid #ccc;
+.class-recommend .mui-content .class-list li {
+  border-bottom: 1px solid #d9dde1;
+  padding: 1.22222222rem 0;
 }
 /*实战推荐*/
 .coding-img {

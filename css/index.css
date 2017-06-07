@@ -94,7 +94,7 @@ nav .mui-content .mui-row a.nav-menu .iconfont-article::before {
   line-height: 2.44444444rem;
   margin-top: 0.27777778rem;
   margin-bottom: 0;
-  padding: 0 0.77777778rem;
+  padding: 0 0.83333333rem;
 }
 .recommend > .rec-title .change-btn {
   /*换一换按钮*/
@@ -108,4 +108,7 @@ nav .mui-content .mui-row a.nav-menu .iconfont-article::before {
   font-size: 0.55555556rem;
   color: #71777d;
   margin-top: 10px;
+}
+.mar-top {
+  margin-top: -0.66666667rem;
 }

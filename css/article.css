@@ -1,0 +1,31 @@
+/*手记页面样式*/
+body,
+header.mui-bar,
+.mui-content {
+  background-color: #fff;
+}
+.pad-top {
+  padding-top: 46px;
+}
+/*主页面标题*/
+header.mui-bar {
+  border-bottom: 1px solid #D9DDE1;
+  /*选项卡样式*/
+  /*侧滑栏按钮*/
+}
+header.mui-bar .slider-box {
+  width: 60%!important;
+  float: left!important;
+  /*选项选中时的样式*/
+}
+header.mui-bar .slider-box > a {
+  text-align: left;
+}
+header.mui-bar .slider-box > a.mui-active {
+  color: #f01414!important;
+  border: none!important;
+}
+header.mui-bar #aside-btn {
+  color: #333;
+  font-size: 30px;
+}

@@ -1,0 +1,45 @@
+/*课程页面样式*/
+body,
+.mui-content {
+  background-color: #fff;
+}
+/*课程列表*/
+.course-list.p-top {
+  padding-top: 3.66666667rem;
+}
+.course-list {
+  padding-top: 2.11111111rem;
+  border-bottom: 1px solid #e0e0e0;
+}
+.course-list .course-title {
+  /*课程分类标题*/
+  font-weight: bold;
+  color: #000;
+  margin-left: 0.83333333rem;
+  margin-bottom: 1.33333333rem;
+}
+.course-list .mui-row {
+  margin-bottom: 1.33333333rem;
+}
+.course-list .mui-row .course-item {
+  /*课程内容*/
+  display: block;
+  text-align: center;
+}
+.course-list .mui-row .course-item .img-box {
+  width: 1.94444444rem;
+  height: 1.94444444rem;
+  display: inline-block;
+  border-radius: 50%;
+  overflow: hidden;
+}
+.course-list .mui-row .course-item .img-box img {
+  width: 100%;
+  display: block;
+}
+.course-list .mui-row .course-item > span {
+  display: block;
+  font-size: 0.77777778rem;
+  color: #000;
+  font-weight: bold;
+}

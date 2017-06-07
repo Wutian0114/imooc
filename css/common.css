@@ -119,19 +119,19 @@ header.mui-bar > .mui-content .self > img {
 /*课程推荐 和 实战课程*/
 .course-recommend .course-list {
   /*课程列表*/
-  padding: 0 0.66666667rem;
+  padding: 0 0.83333333rem;
 }
 .course-recommend .course-list .course-item {
   padding: 0;
   width: 50%;
   margin-bottom: 0.66666667rem;
-  box-shadow: 0 0 10px 0 rgba(7, 17, 27, 0.1);
 }
 .course-recommend .course-list .course-item a.list-itme {
   display: block;
   overflow: hidden;
   background-color: #fff;
   border-radius: 0.44444444rem;
+  box-shadow: 0 0 10px 0 rgba(7, 17, 27, 0.1);
 }
 .course-recommend .course-list .course-item a.list-itme > img {
   width: 100%;
@@ -163,25 +163,16 @@ header.mui-bar > .mui-content .self > img {
 /*学习路径推荐 和 实战*/
 .class-recommend {
   background-color: #fff;
-  padding: 0 0.66666667rem;
 }
 .class-recommend .mui-content {
   background-color: #fff;
 }
-.class-recommend .mui-content .class-title {
-  /*路径标题*/
-  margin-bottom: 0.66666667rem;
-}
-.class-recommend .mui-content .class-title h3 {
-  font-size: 0.83333333rem;
-  font-weight: normal;
-  margin-top: 0.27777778rem;
-}
 .class-recommend .mui-content .class-list {
   /*路径列表*/
+  padding: 0 0.83333333rem;
 }
 .class-recommend .mui-content .class-list > li {
-  margin-bottom: 1.27777778rem;
+  padding: 0.66666667rem 0;
 }
 .class-recommend .mui-content .class-list > li > a {
   display: block;
