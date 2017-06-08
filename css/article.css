@@ -5,11 +5,14 @@ header.mui-bar,
   background-color: #fff;
 }
 .pad-top {
-  padding-top: 46px;
+  padding-top: 2.55555556rem;
 }
 /*主页面标题*/
 header.mui-bar {
   border-bottom: 1px solid #D9DDE1;
+  height: 3.05555556rem;
+  padding-left: 1.11111111rem;
+  padding-right: 1.11111111rem;
   /*选项卡样式*/
   /*侧滑栏按钮*/
 }
@@ -27,5 +30,64 @@ header.mui-bar .slider-box > a.mui-active {
 }
 header.mui-bar #aside-btn {
   color: #333;
-  font-size: 30px;
+  font-size: 1.66666667rem;
+}
+/*内容*/
+.main-content.mui-content {
+  padding-top: 3.05555556rem;
+}
+/*侧滑菜单*/
+.aside-menu.mui-off-canvas-right {
+  top: 2.55555556rem;
+  transition-duration: 500ms;
+  background-color: #fff;
+}
+.aside-menu.mui-off-canvas-right .article-nav-box {
+  padding: 0.83333333rem;
+}
+.aside-menu.mui-off-canvas-right .article-nav-box .nav-title {
+  border-bottom: 1px solid #71777d;
+}
+.aside-menu.mui-off-canvas-right .article-nav-box .nav-title a {
+  font-size: 0.66666667rem;
+  color: #71777D;
+  display: block;
+  line-height: 1.55555556rem;
+}
+.aside-menu.mui-off-canvas-right .article-nav-box .nav-title > div {
+  margin-bottom: 0.55555556rem;
+}
+.aside-menu.mui-off-canvas-right .article-nav-box ul {
+  margin-top: 0.83333333rem;
+}
+.aside-menu.mui-off-canvas-right .article-nav-box ul li {
+  float: left;
+  margin-top: 0.33333333rem;
+  margin-right: 0.33333333rem;
+}
+.aside-menu.mui-off-canvas-right .article-nav-box ul li a {
+  display: block;
+  padding: 0.33333333rem;
+  border: 1px solid #b7bbbf;
+  color: #71777d;
+  font-size: 0.66666667rem;
+}
+/*文章列表*/
+.article-box {
+  padding: 0.55555556rem 1.11111111rem;
+}
+.article-box li {
+  padding: 1rem 0;
+  border-bottom: 1px solid #e7ecef;
+}
+.article-box li h3 {
+  font-size: 0.88888889rem;
+  margin-bottom: 0.66666667rem;
+}
+.article-box li p {
+  font-size: 0.66666667rem;
+  height: 3.88888889rem;
+  line-height: 1.33333333rem;
+  color: #71777D;
+  overflow: hidden;
 }

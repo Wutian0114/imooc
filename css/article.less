@@ -3,12 +3,15 @@ body , header.mui-bar , .mui-content{
   background-color: #fff;
 }
 .pad-top {
-  padding-top: 46px;
+  padding-top: 46/18rem;
 }
 
 /*主页面标题*/
 header.mui-bar {
   border-bottom: 1px solid #D9DDE1;
+  height: 55/18rem;
+  padding-left: 20/18rem;
+  padding-right: 20/18rem;
 
   /*选项卡样式*/
   .slider-box {
@@ -29,9 +32,80 @@ header.mui-bar {
   /*侧滑栏按钮*/
   #aside-btn {
     color: #333;
-    font-size: 30px;
+    font-size: 30/18rem;
   }
 }
 
+/*内容*/
+.main-content.mui-content {
+  padding-top: 55/18rem;
+}
+
+/*侧滑菜单*/
+.aside-menu.mui-off-canvas-right {
+  top: 46/18rem;
+  transition-duration: 500ms;
+  background-color: #fff;
+
+  .article-nav-box {
+    padding: 15/18rem;
+
+    .nav-title {
+      border-bottom: 1px solid #71777d;
+
+      a {
+        font-size: 12/18rem;
+        color: #71777D;
+        display: block;
+        line-height: 28/18rem;
+      }
+
+      >div {
+        margin-bottom: 10/18rem;
+      }
+    }
+
+    ul {
+      margin-top: 15/18rem;
+
+      li{
+        float: left;
+        margin-top: 6/18rem;
+        margin-right: 6/18rem;
+
+        a {
+          display: block;
+          padding: 6/18rem;
+          border: 1px solid #b7bbbf;
+          color: #71777d;
+          font-size: 12/18rem;
+        }
+      }
+    }
+  }
+}
+
+/*文章列表*/
+.article-box {
+  padding: 10/18rem 20/18rem;
+
+  li {
+    padding: 1rem 0;
+    border-bottom: 1px solid #e7ecef;
+
+    h3 {
+      font-size: 16/18rem;
+      margin-bottom: 12/18rem;
+    }
+
+    p {
+      font-size: 12/18rem;
+      height: 70/18rem;
+      line-height: 24/18rem;
+      color: #71777D;
+      overflow: hidden;
+    }
+  }
+}
 
 
