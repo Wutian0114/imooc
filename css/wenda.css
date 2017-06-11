@@ -1,0 +1,22 @@
+/*�ʴ�ҳ����ʽ*/
+.article-box .question-from {
+  height: auto;
+  line-height: inherit;
+}
+/*���ʰ�ť*/
+.question-btn {
+  position: absolute;
+  right: 1.33333333rem;
+  bottom: 3.22222222rem;
+  z-index: 99;
+}
+.question-btn a {
+  width: 2.66666667rem;
+  height: 2.66666667rem;
+  display: block;
+  background-color: #14B4FF;
+  color: #fff;
+  text-align: center;
+  line-height: 2.66666667rem;
+  border-radius: 50%;
+}
